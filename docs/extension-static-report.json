@@ -1,0 +1,75 @@
+{
+  "extension_version": "1.0.104",
+  "manifest_version": 3,
+  "manifest_sha256": "6df849919312ebd4ea4523d780fdba2f164eb1f399ef97732698126acbf6645e",
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "permissions": [
+    "sidePanel",
+    "storage",
+    "activeTab",
+    "scripting",
+    "debugger",
+    "tabGroups",
+    "tabs",
+    "alarms",
+    "notifications",
+    "webNavigation",
+    "declarativeNetRequestWithHostAccess",
+    "offscreen",
+    "nativeMessaging",
+    "unlimitedStorage",
+    "downloads",
+    "identity",
+    "favicon"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "managed_policy_keys": [
+    "blockedUrlPatterns",
+    "forceLoginOrgUUID"
+  ],
+  "components": [
+    {
+      "file": "assets/SavedPromptsService-CxvgAL-B.js",
+      "bytes": 196805,
+      "sha256": "2918d6e11dac43b4c913eea61a5d681551a6526bfb4075f4faab82c1aee466b2",
+      "signals": {
+        "permission_modes": 4,
+        "user_prompt_field": 1
+      }
+    },
+    {
+      "file": "assets/mcpPermissions-DIAg91MW.js",
+      "bytes": 749934,
+      "sha256": "f45d013a952a81f0187cc634df3aea30e60198e1dae2390bf6c87d6a499981cd",
+      "signals": {
+        "permission_modes": 9
+      }
+    },
+    {
+      "file": "assets/service-worker.ts-DAVE5h6d.js",
+      "bytes": 88695,
+      "sha256": "3b09c45c0d47ae21fb2c66dc4c9b6185ba6dffac76838f1dbb6925c86b83d05c",
+      "signals": {
+        "native_messaging": 6,
+        "permission_modes": 7
+      }
+    },
+    {
+      "file": "assets/sidepanel-B4nnM6E4.js",
+      "bytes": 1772143,
+      "sha256": "d0cf89ba4f5338460c8e03a58f2104d8ade38d8848ab4e44aa82cdc870ed47fa",
+      "signals": {
+        "permission_modes": 79,
+        "user_prompt_field": 11,
+        "remote_prompt_config": 2,
+        "account_creation_ui_notice": 2
+      }
+    }
+  ],
+  "interpretation": "Static signals only; not proof of an enabled setting or server-side behavior."
+}
