@@ -1,5 +1,7 @@
 # Browser Onboarding Kit
 
+[![Check](https://github.com/ghmbarboza/browser-onboarding-kit/actions/workflows/check.yml/badge.svg)](https://github.com/ghmbarboza/browser-onboarding-kit/actions/workflows/check.yml)
+
 Pacote white label para executar onboarding de plataformas autorizadas
 com Claude Code e Claude in Chrome: aproveitar logins, alternar entre a
 plataforma e os serviços necessários, configurar integrações e validar.

@@ -3,6 +3,9 @@
 Cole o texto abaixo ao iniciar a conversa no painel lateral. Complete o
 escopo com os dados de `examples/session-brief.md`. A instalação do Claude
 Code não injeta automaticamente instruções em outra conversa do painel.
+Se sua versão oferecer um campo de instruções personalizadas na interface,
+o texto também pode ser colocado ali. A presença desse campo não foi
+confirmada em todas as versões; o uso pela conversa funciona sem ele.
 
 ---
 
